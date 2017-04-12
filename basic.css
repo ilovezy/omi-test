@@ -1,0 +1,56 @@
+.select.with-arrow {
+  border: 1px solid #eee;
+  display: inline-block;
+  font-size: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.select.with-arrow h1 {
+  display: inline-block;
+  padding: 10px 25px;
+  margin: 0;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  background: #fff;
+  color: black;
+}
+.select.with-arrow h1:before {
+  position: absolute;
+  content: ' ';
+  border: 20px solid transparent;
+  border-left: 15px solid #fff;
+  width: 0;
+  height: 0;
+  left: 75px;
+  top: 0;
+  z-index: 100;
+}
+.select.with-arrow h1:after {
+  position: absolute;
+  content: ' ';
+  border: 20px solid transparent;
+  border-left: 15px solid #eee;
+  width: 0;
+  height: 0;
+  left: 76px;
+  top: 0;
+  z-index: 99;
+}
+.select.with-arrow h1.on {
+  background: orange;
+}
+.select.with-arrow h1.on:before {
+  position: absolute;
+  content: ' ';
+  border: 20px solid transparent;
+  border-left: 15px solid orange;
+  width: 0;
+  height: 0;
+  left: 75px;
+  top: 0;
+  z-index: 100;
+}
+.select.with-arrow h1.on:after {
+  display: none;
+}

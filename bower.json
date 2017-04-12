@@ -1,0 +1,20 @@
+{
+  "name": "testomi",
+  "homepage": "https://github.com/ilovezy/omi-test",
+  "authors": [
+    "misCC <1518265554@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
